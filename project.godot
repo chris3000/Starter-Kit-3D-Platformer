@@ -107,3 +107,8 @@ zoom_out={
 [rendering]
 
 anti_aliasing/quality/screen_space_aa=1
+
+[xr]
+
+openxr/enabled=true
+shaders/enabled=true
