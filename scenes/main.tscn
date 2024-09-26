@@ -33,10 +33,7 @@ transform = Transform3D(0.707107, -0.298836, 0.640856, 0, 0.906308, 0.422618, -0
 script = ExtResource("5_bg0fr")
 target = NodePath("../Player")
 
-[node name="Camera" type="Camera3D" parent="View"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 10)
-current = true
-fov = 40.0
+[node name="Camera3D" type="Camera3D" parent="View"]
 
 [node name="World" type="Node3D" parent="."]
 
